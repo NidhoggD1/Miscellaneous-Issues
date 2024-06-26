@@ -5,7 +5,9 @@ https://pypi.org/simple
 # conda默认源
 
 https://repo.anaconda.com/pkgs/main
+
 https://repo.anaconda.com/pkgs/r
+
 https://repo.anaconda.com/pkgs/msys2
 
 # pip永久换源
@@ -40,7 +42,6 @@ custom_channels:
   pytorch: https://mirrors.bfsu.edu.cn/anaconda/cloud
 
 上海交通大学开源软件镜像站
-
 
 channels:
   - defaults
@@ -79,7 +80,6 @@ custom_channels:
 
 清华大学开源软件镜像站
 
-
 channels:
   - defaults
 show_channel_urls: true
@@ -109,6 +109,18 @@ conda config --remove-key channels
 或
 
 直接删除 *'C:\Users\UserName\.condarc'*
+
+或
+
+运行
+
+conda config --add channels https://repo.anaconda.com/pkgs/main
+
+conda config --add channels https://repo.anaconda.com/pkgs/r
+
+conda config --add channels https://repo.anaconda.com/pkgs/msys2
+
+conda config --set show_channel_urls yes
 
 # 临时换源
 
