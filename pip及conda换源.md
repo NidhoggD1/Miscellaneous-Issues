@@ -98,7 +98,7 @@ custom_channels:
   pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 
-运行
+然后运行
 
 conda clean -i 
 
@@ -117,5 +117,7 @@ xxx install -i url
 # 常用源
 
 清华: https://pypi.tuna.tsinghua.edu.cn/simple
+
 阿里: http://mirrors.aliyun.com/pypi/simple/
+
 豆瓣: http://pypi.douban.com/simple/
