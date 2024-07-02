@@ -14,6 +14,14 @@ https://repo.anaconda.com/pkgs/msys2
 
 pip config set global.index-url 新源URL
 
+## 常用源
+
+清华: https://pypi.tuna.tsinghua.edu.cn/simple
+
+阿里: http://mirrors.aliyun.com/pypi/simple/
+
+豆瓣: http://pypi.douban.com/simple/
+
 # conda永久换源
 
 创建 *.condarc* 文件于 *'C:\Users\UserName\.condarc'*：
@@ -126,10 +134,4 @@ conda config --set show_channel_urls yes
 
 xxx install -i url
 
-# 常用源
 
-清华: https://pypi.tuna.tsinghua.edu.cn/simple
-
-阿里: http://mirrors.aliyun.com/pypi/simple/
-
-豆瓣: http://pypi.douban.com/simple/
