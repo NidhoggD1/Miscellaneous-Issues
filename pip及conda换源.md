@@ -116,7 +116,7 @@ conda config --remove-key channels
 
 或
 
-直接删除 *'C:\Users\UserName\.condarc'*
+直接删除 *'C:\Users\UserName\ .condarc'*
 
 或
 
