@@ -18,9 +18,9 @@ pip config set global.index-url 新源URL
 
 清华: https://pypi.tuna.tsinghua.edu.cn/simple
 
-阿里: http://mirrors.aliyun.com/pypi/simple/
+阿里: https://mirrors.aliyun.com/pypi/simple/
 
-豆瓣: http://pypi.douban.com/simple/
+豆瓣: https://pypi.douban.com/simple/
 
 # conda永久换源
 
