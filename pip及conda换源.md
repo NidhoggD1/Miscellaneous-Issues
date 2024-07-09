@@ -24,7 +24,7 @@ pip config set global.index-url 新源URL
 
 # conda永久换源
 
-创建 *.condarc* 文件于 *'C:\Users\UserName\.condarc'*：
+创建 *.condarc* 文件于 *'C:\Users\UserName\ .condarc'*：
 
 conda config --set show_channel_urls yes
 
